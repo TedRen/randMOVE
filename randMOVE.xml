@@ -9,9 +9,7 @@
     <statement name="DO">
       <block type="robot_delay" id="77" inline="true">
         <value name="DELAY">
-          <block type="math_number" id="106">
-            <field name="NUM">250</field>
-          </block>
+          <block type="math_random" id="232"></block>
         </value>
         <next>
           <block type="movement_leftmotor" id="124" inline="true">
