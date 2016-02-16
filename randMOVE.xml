@@ -1,61 +1,61 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="28" inline="false" x="225" y="61">
+  <block type="controls_whileUntil" id="1" inline="false" x="220" y="163">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="57">
+      <block type="sensor_button" id="2">
         <field name="OBJECT">ENTER</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="robot_delay" id="77" inline="true">
+      <block type="robot_delay" id="3" inline="true">
         <value name="DELAY">
-          <block type="math_random" id="232"></block>
+          <block type="math_random" id="4"></block>
         </value>
         <next>
-          <block type="movement_leftmotor" id="124" inline="true">
+          <block type="movement_leftmotor" id="5" inline="true">
             <value name="MOVLEFT">
-              <block type="math_arithmetic" id="246" inline="true">
+              <block type="math_arithmetic" id="6" inline="true">
                 <field name="OP">MULTIPLY</field>
                 <value name="A">
-                  <block type="math_arithmetic" id="247" inline="true">
+                  <block type="math_arithmetic" id="7" inline="true">
                     <field name="OP">MINUS</field>
                     <value name="A">
-                      <block type="math_random" id="248"></block>
+                      <block type="math_random" id="8"></block>
                     </value>
                     <value name="B">
-                      <block type="math_number" id="249">
+                      <block type="math_number" id="9">
                         <field name="NUM">50</field>
                       </block>
                     </value>
                   </block>
                 </value>
                 <value name="B">
-                  <block type="math_number" id="250">
+                  <block type="math_number" id="10">
                     <field name="NUM">2</field>
                   </block>
                 </value>
               </block>
             </value>
             <next>
-              <block type="movement_rightmotor" id="210" inline="true">
+              <block type="movement_rightmotor" id="11" inline="true">
                 <value name="MOVRIGHT">
-                  <block type="math_arithmetic" id="211" inline="true">
+                  <block type="math_arithmetic" id="12" inline="true">
                     <field name="OP">MULTIPLY</field>
                     <value name="A">
-                      <block type="math_arithmetic" id="212" inline="true">
+                      <block type="math_arithmetic" id="13" inline="true">
                         <field name="OP">MINUS</field>
                         <value name="A">
-                          <block type="math_random" id="213"></block>
+                          <block type="math_random" id="14"></block>
                         </value>
                         <value name="B">
-                          <block type="math_number" id="214">
+                          <block type="math_number" id="15">
                             <field name="NUM">50</field>
                           </block>
                         </value>
                       </block>
                     </value>
                     <value name="B">
-                      <block type="math_number" id="215">
+                      <block type="math_number" id="16">
                         <field name="NUM">2</field>
                       </block>
                     </value>
@@ -68,7 +68,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="225"></block>
+      <block type="movement_stop" id="17"></block>
     </next>
   </block>
 </xml>
